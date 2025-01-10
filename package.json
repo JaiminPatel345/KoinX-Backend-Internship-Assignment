@@ -1,0 +1,19 @@
+{
+  "name": "koinx-backend-internship-assignment",
+  "version": "1.0.0",
+  "description": "this is KoinX Backend Internship Assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "author": "Jaimin Detroja",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.4"
+  }
+}
