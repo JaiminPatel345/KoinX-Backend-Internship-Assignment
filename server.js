@@ -20,7 +20,8 @@ await initMongoClient();
 startCryptoJob();
 
 app.get('/', (req, res) => {
-    res.json({message: 'Welcome to the server!'});
+    res.send(
+        `Welcome by Jaimin Detroja :) \nMy Portfolio Link : https://jaimin-detroja.vercel.app`);
 });
 
 // Use crypto routes
